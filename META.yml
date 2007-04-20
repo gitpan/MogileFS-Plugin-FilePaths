@@ -1,0 +1,12 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         MogileFS-Plugin-FilePaths
+version:      0.01
+version_from: lib/MogileFS/Plugin/FilePaths.pm
+installdirs:  site
+requires:
+    MogileFS::Plugin::MetaData:    0.01
+    MogileFS::Server:              2.08
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.30_01
